@@ -90,7 +90,9 @@ i {
   margin-top: 16px;
 }
 
-
+.wistem {
+  padding: 0 56px;
+}
 
 header {
   background: none;
@@ -129,6 +131,12 @@ header {
   }
   header {
     background: none;
+  }
+  .wistem {
+    padding: 0;
+  }
+  .divider {
+    margin: 36px auto;
   }
 }
 
