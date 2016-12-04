@@ -138,6 +138,9 @@ header {
   .divider {
     margin: 36px auto;
   }
+  .row {
+    margin: 32px 8px;
+  }
 }
 
 
@@ -146,10 +149,15 @@ header {
     animation: none;
     width: auto;
   }
+
+  .row {
+    margin: 32px 16px;
+  }
 }
 @media (min-width: 767px) {
   .project {
     padding: 0 20px;
   }
+
 
 }
