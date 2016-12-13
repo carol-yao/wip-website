@@ -89,7 +89,16 @@ i {
   color: rgba(0,0,0,0.5);
   margin-top: 16px;
 }
+#about {
+  background-image: url("../img/about.png");
+  background-size: cover;
+  margin: 0;
+  padding: 88px 0;
+}
 
+#projects {
+  margin-top: 0;
+}
 .wistem {
   padding: 0 56px;
 }
