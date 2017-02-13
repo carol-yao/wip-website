@@ -85,6 +85,29 @@ i {
   opacity: 0.8;
 }
 
+.arrows-div {
+  margin-top: 6em;
+}
+
+#arrow-icon {
+  opacity: 0.6;
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: calc(50% - 0.75em);
+}
+
+@keyframes MoveUpDown {
+  0% {
+    bottom: -100px;
+  }
+  50% {
+    bottom: -50px;
+  }
+  100% {
+    bottom: -100px;
+  }
+}
+
 .project p {
   color: rgba(0,0,0,0.5);
   margin-top: 16px;
@@ -154,9 +177,15 @@ header {
 
 
 @media (max-width: 995px) {
+  .intro {
+    margin-top: 30%;
+  }
   .intro h2 {
     animation: none;
     width: auto;
+  }
+  .arrows-div {
+    display: none;
   }
 
   .row {
