@@ -84,11 +84,11 @@ a:hover, a:active, a:focus {
 }
 
 .intro-wrapper {
-  padding: 6.5em 100px 2.5em; /* change for responsive */
+  padding: 6.5em 100px 2.5em;
 }
 
 .project-section-wrapper {
-  padding: 1em 100px; /* change for responsive */
+  padding: 1em 100px;
 }
 
 i {
@@ -157,11 +157,11 @@ i.non-link-icons:focus {
 /* --------------------------------------------- */
 /* Project Pages */
 
-.p-body {
-  padding: 3em 10em;
+/* Project Buttons */
+.fa-long-arrow-left {
+  margin: 16px 0 0 56px;
 }
 
-/* Project Buttons */
 .p-buttons-wrapper {
   text-align: center;
 }
@@ -252,7 +252,14 @@ i.non-link-icons:focus {
   background-size: cover;
 }
 
-@media only screen and (max-width : 450px) {
+
+@media only screen and (max-width : 768px) {
+  .fa-long-arrow-left {
+    margin: 16px 0 0 24px;
+  }
+}
+
+@media only screen and (max-width : 576px) {
   .intro-wrapper {
     padding: 6.5em 16px 2.5em; /* change for responsive */
   }
@@ -270,5 +277,9 @@ i.non-link-icons:focus {
     display: inline-block;
     margin: 0 8px;
     float: none;
+  }
+
+  .fa-long-arrow-left {
+    margin: 16px 0 0 16px;
   }
 }
