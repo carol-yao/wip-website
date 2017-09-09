@@ -62,7 +62,7 @@ a:hover, a:active, a:focus {
 
 #nav-bar-link-name {
   float: left;
-  margin: 0;
+  margin: 0 16px 0 0 ;
 }
 .large-headings {
   padding: 4px 0;
@@ -252,7 +252,7 @@ i.non-link-icons:focus {
   background-size: cover;
 }
 
-@media only screen and (max-width : 525px) {
+@media only screen and (max-width : 450px) {
   .intro-wrapper {
     padding: 6.5em 16px 2.5em; /* change for responsive */
   }
