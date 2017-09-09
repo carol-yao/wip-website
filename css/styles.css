@@ -133,24 +133,25 @@ i.non-link-icons:focus {
 }
 
 .project-information {
+  width: 100%;
   position: absolute;
-  bottom: 8px;
-  left: 8px;
-  padding: 0 16px 0 8px;
+  bottom: 0px;
+  left: 0px;
+  padding: 0 16px;
+  background-color: rgba(0,0,0,0.56);
 }
 .project-title {
   color: white;
-  margin-top: 16px;
-  font-size: 20px;
+  margin: 16px 0 0;
+  font-size: 16px;
 }
-.project-stack {
-  color: white;
-  font-size: 14px;
-}
+
 .project-description {
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
+  margin: 8px 0 16px;
+  color: rgba(256,256,256,0.78);
 }
 
 /* --------------------------------------------- */
@@ -191,11 +192,16 @@ i.non-link-icons:focus {
   color: white;
 }
 
+.p-btn:hover a, .p-btn:active a, .p-btn:focus a {
+  color: white;
+}
+
 .p-cover-image {
   margin: 24px auto;
   height: 400px;
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: grey;
 }
 
 .p-name {
@@ -244,4 +250,25 @@ i.non-link-icons:focus {
 #snag {
   background: url("../img/snag-thumbnail.png") no-repeat center;
   background-size: cover;
+}
+
+@media only screen and (max-width : 525px) {
+  .intro-wrapper {
+    padding: 6.5em 16px 2.5em; /* change for responsive */
+  }
+
+  .project-section-wrapper {
+    padding: 1em 16px; /* change for responsive */
+  }
+
+  .nav-bar-nav {
+    padding: 0 16px;
+  }
+
+  .nav-bar-link {
+    line-height: 56px;
+    display: inline-block;
+    margin: 0 8px;
+    float: none;
+  }
 }
