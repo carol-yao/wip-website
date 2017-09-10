@@ -231,15 +231,18 @@ i.non-link-icons:focus {
   opacity: 0.87;
 }
 
-.p-section-text:last-child {
-  margin-bottom: 64px;
-}
-
 .p-section-img {
   display: block;
   width: 100%;
   height: auto;
   margin: 16px auto;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0,0,0,0.56);
+  margin: 16px 0 36px;
 }
 
 #defender {
@@ -308,7 +311,7 @@ i.non-link-icons:focus {
     margin: 0 16px;
   }
 
-  .p-section-text:last-child {
-    margin-bottom: 16px;
+  .footer-text {
+    margin: 8px 0 16px;
   }
 }
