@@ -197,11 +197,10 @@ i.non-link-icons:focus {
 }
 
 .p-cover-image {
-  margin: 24px auto;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: grey;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
 }
 
 .p-name {
@@ -232,6 +231,17 @@ i.non-link-icons:focus {
   opacity: 0.87;
 }
 
+.p-section-text:last-child {
+  margin-bottom: 64px;
+}
+
+.p-section-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 16px auto;
+}
+
 #defender {
   background: url("../img/defender-thumbnail.png") no-repeat center;
   background-size: cover;
@@ -257,6 +267,9 @@ i.non-link-icons:focus {
   .fa-long-arrow-left {
     margin: 16px 0 0 24px;
   }
+  .p-cover-image {
+    margin: 0 36px;
+  }
 }
 
 @media only screen and (max-width : 576px) {
@@ -281,5 +294,21 @@ i.non-link-icons:focus {
 
   .fa-long-arrow-left {
     margin: 16px 0 0 16px;
+  }
+
+  .p-cover-image {
+    margin: 0 16px;
+  }
+
+  .p-section-heading {
+    margin: 0 16px;
+  }
+
+  .p-section-text {
+    margin: 0 16px;
+  }
+
+  .p-section-text:last-child {
+    margin-bottom: 16px;
   }
 }

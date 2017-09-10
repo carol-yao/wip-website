@@ -25,7 +25,9 @@
     <h1 class="p-name">Hourglass</h1>
     <h2 class="p-heading">Development • Summer 2016<br></h2>
     <div class="row justify-content-center">
-      <div class="p-cover-image col-lg-8"></div>
+      <div class="col-lg-8">
+        <img class="p-cover-image" src="img/hourglass-temp.png" alt="">
+      </div>
       <div class="p-section col-lg-8">
         <div class="p-buttons-wrapper">
           <button type="button" class="p-btn"><i class="fa fa-github" aria-hidden="true"></i><a target="_blank" href="https://github.com/carol-yao/hourglass">Repo</a></button>
@@ -33,12 +35,25 @@
         <h2 class="p-section-heading">STACK</h2>
         <p class="p-section-text">HTML • CSS • JavaScript</p>
         <h2 class="p-section-heading">OVERVIEW</h2>
-        <p class="p-section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="p-section-text">Hourglass is a chrome extension I developed over Summer 2016
+        when I first started programming. I thought it would be a great project after No Connection
+        to dive deeper into chrome extensions.<br>
+        This idea was inspired by the Medium blogging platform and their estimated reading time
+        feature on articles. I really loved how they specified how long it would take to read the
+        page so users could gauge if they had that length of time before starting to read. I chose
+        to make a chrome extension specifically since I would often want to know how long it would
+        take me to read a scientific journal when I was writing lab reports.</p>
+        <h2 class="p-section-heading">DEVELOPMENT</h2>
+        <p class="p-section-text">
+          In this project, I learned a lot about message passing and data passing between different
+          parts of the chrome extension. The algorithm I used to determine the estimation of time to
+          read the page took the count of words on the page and divided by the average reading speed
+          of a person.</p>
+      <img class="p-section-img" src="img/hourglass-article-comparison.png" alt="">
+      <p class="p-section-text"> I compared the times against Medium articles and the estimated times were very
+      similar.</p>
       </div>
     </div>
-
-
-
   </div>
 </body>
 </html>
